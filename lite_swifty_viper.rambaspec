@@ -1,0 +1,28 @@
+# Template information section
+name: "lite_swifty_viper"
+summary: "Swift VIPER module template for lite app."
+author: "Anton Goncharov"
+version: "1.0.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# View layer
+- {name: View/ViewIO.swift,  path: Code/View/view_io.swift.liquid}
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/ModuleIO.swift, path: Code/Presenter/module_io.swift.liquid}
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/InteractorIO.swift, path: Code/Interactor/interactor_io.swift.liquid}
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+
+# Router layer
+- {name: Router/RouterIO.swift, path: Code/Router/router_io.swift.liquid}
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+# Assembly
+- {name: Assembly/Assembly.swift, path: Code/Assembly/assembly.swift.liquid}
